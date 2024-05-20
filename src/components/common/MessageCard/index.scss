@@ -1,40 +1,12 @@
 .profile-card {
-  width: auto;
-  height: auto;
   background-color: whitesmoke;
-  margin: 30px;
+  margin: 10px;
   border-radius: 5px;
   padding: 20px;
-  position: relative;
-  .profile-info {
-    display: flex;
-    justify-content: space-between;
-    .profile-image {
-      width: 200px;
-      height: 200px;
-      object-fit: contain;
-      border-radius: 50%;
-      border: 2px solid #cacaca;
-      padding: 5px;
-      cursor: pointer;
-    }
-    .right-info {
-      margin-top: 25px;
-      margin-right: 20px;
-      .college,
-      .company {
-        font-family: system-ui;
-        color: rgba(0, 0, 0, 0.9);
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 30px;
-      }
+  width: 90vw;
+  position: fixed;
+  bottom: 0.1vh;
 
-      .company {
-        margin-top: -15px;
-      }
-    }
-  }
 
   .website {
     color: #004c75 !important;
@@ -78,5 +50,19 @@
 }
 
 .message-box {
-  width: 50%;
+  width: 80%;
+  display: block;
+  margin: auto;
+  height: 100%;
+  border-radius: 20%;
+  outline: none;
+  border-width: 0cap;
+  font-size: 1rem;
+  padding:0px 30px
+}
+
+
+.profile-card {
+  border-radius: 10%;
+  height: 5vh;
 }
